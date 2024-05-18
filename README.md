@@ -1,11 +1,10 @@
-# AG Jiu-Jitsu
+# AGBJJ-APP - Brazilian Jiu-Jitsu Gym
 
-Este é um projeto fullstack web para marcação de aulas particulares de jiu jitsu para a academia AG Jiu-Jitsu, composto por um frontend em React e um backend em Node.js. Para maiores informações acesse: https://agjiujitsu.com.br/login
+This is a fullstack web project for scheduling private jiu jitsu classes for the AG Jiu-Jitsu academy, consisting of a frontend in React and a backend in Node.js. For more information visit: https://agjiujitsu.com.br/login
 
+<center><img src="./images//mockup.png" width="600px" /></center>
 
-<center><img src="./images//mockup.png" width="400px" /></center>
-
-## Telas iniciais da aplicação
+## Application home screens
 
 <table>
   <tr>
@@ -16,16 +15,16 @@ Este é um projeto fullstack web para marcação de aulas particulares de jiu ji
   </tr>
 </table>
 
-## Funcionalidades
+## Functionalities
 
-- Os instrutores podem cadastrar dias e horários disponíveis para dar aula.
-- Os instrutores podem cadastrar o valor cobrado por hora de aula.
-- Os usuários podem se cadastrar e fazer login para acessar o sistema.
-- Os usuários podem visualizar a lista de instrutores disponíveis.
-- Os usuários podem marcar e cancelar aulas.
+- Instructors can register days and times available to teach classes.
+- Instructors can register the amount charged per hour of class.
+- Users can register and log in to access the system.
+- Users can view the list of available instructors.
+- Users can book and cancel classes.
 
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 ### Frontend
 
@@ -39,60 +38,59 @@ Este é um projeto fullstack web para marcação de aulas particulares de jiu ji
 
 - Node.js
 - TypeScript
-- Express.js (para criação da API)
-- SQLite3 (para armazenamento de dados)
+- Express.js (for creating the API)
+- SQLite3 (for data storage)
 - Knex (SQL query builder)
-- JWT (para autenticação de usuários)
-- Bcrypt (para criptografia de senhas)
+- JWT (for user authentication)
+- Bcrypt (for password encryption)
 
-## Instalação
+## Installation
 
-Esse projeto esta utilizando node v16.20.0, por favor, use o NVM para alterar entre versões.
+This project is using node v16.20.0, please use NVM to change between versions.
 
-1. Clone este repositório:
+1. Clone this repository:
 
 ```
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 ```
 
-2. Instale as dependências do frontend:
+2. Install frontend dependencies:
 
 ```
 cd frontend
 yarn install
 ```
 
-3. Instale as dependências do backend:
+3. Install backend dependencies:
 
 ```
 cd ../backend
 yarn install
 ```
 
-4. Configure as variáveis de ambiente no backend. Você precisará criar um arquivo `.env` na pasta `backend` com as seguintes variáveis:
+4. Configure environment variables in the backend. You will need to create a `.env` file in the `backend` folder with the following variables:
 
 ```
 PORT=3001
-JWT_SECRET=sua-chave-secreta-para-jwt
+JWT_SECRET=your-secret-key-to-jwt
 ```
 
-5. Inicie o servidor backend:
+5. Start the backend server:
 
 ```
 yarn start
 ```
 
-6. Inicie o servidor frontend:
+6. Start the frontend server:
 
 ```
 cd ../frontend
 npm start
 ```
 
-## Contribuindo
+## Contributing
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias, correções de bugs ou novas funcionalidades.
-
+Contributions are welcome! Feel free to open an issue or send a pull request with improvements, bug fixes or new features.
 
 
 
